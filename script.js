@@ -1,9 +1,10 @@
 function go() {
-    const calList = document.getElementById("calList")
+    const calList = document.getElementById("calList") 
+
     let newItem = document.createElement('li')
     newItem.textContent = "test"
-    calList.appendChild(newItem)
 
+    calList.appendChild(newItem)
 }
 
 go()
