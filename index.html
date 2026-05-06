@@ -3,6 +3,7 @@
   <head>
     <title>Google Calendar API Quickstart</title>
     <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <p>Google Calendar API Quickstart</p>
@@ -11,7 +12,16 @@
     <button id="authorize_button" onclick="handleAuthClick()">Authorize</button>
     <button id="signout_button" onclick="handleSignoutClick()">Sign Out</button>
 
-    <pre id="content" style="white-space: pre-wrap;"></pre>
+    <div class="both-rows">
+      <div class = "column left-side">
+        <h1>Calendar Details</h1>
+        <pre id="content" style="white-space: pre-wrap;"></pre>
+      </div>
+
+      <div class = "column right-side">
+        <h1>Summary</h1>
+      </div>
+    </div>
 
     <script type="text/javascript">
       /* exported gapiLoaded */

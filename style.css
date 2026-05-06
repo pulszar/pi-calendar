@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+.column {
+    float: left;
+    padding: 12px;
+    min-height: 350px;
+}
+
+.left-side {
+    width: 35%
+}
+
+.right-side {
+    width: 35%
+}
